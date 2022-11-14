@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    height:100vh;
+}
+
+.container {
+    background-image: url(./pexels-pixabay-259915.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+.nav {
+   display: flex;
+   justify-content: space-between;
+   padding-inline: 1rem;
+   padding-block: 1rem;
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.main-text {
+    font-size: 4rem;
+}
+
+.left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right a {
+    padding: 15px;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55%;
+}
